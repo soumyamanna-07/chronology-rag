@@ -1,0 +1,43 @@
+# Python virtual environment
+.venv311/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Book/source data - DO NOT UPLOAD
+Data/
+
+# Generated/output data containing source material
+Output/events.json
+Output/events_with_entities.json
+Output/chronology.json
+
+# Local graph/database files
+*.lbdb
+*.lbug
+*.db
+
+# Generated graph CSVs
+Output/*.csv
+
+# Backup files
+*_backup.py
+
+# Native LadybugDB files
+lbug.h
+lbug.hpp
+lbug_shared.dll
+lbug_shared.lib
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
